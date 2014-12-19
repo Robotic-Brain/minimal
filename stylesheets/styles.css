@@ -2,7 +2,7 @@
 
 body.minimal {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:15px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
@@ -10,6 +10,10 @@ body.minimal {
 .minimal h1, .minimal h2, .minimal h3, .minimal h4, .minimal h5, .minimal h6 {
   color:#222;
   margin:0 0 20px;
+}
+
+.minimal h4, .minimal h5, .minimal h6 {
+    margin-bottom:5px;
 }
 
 .minimal p, .minimal ul, .minimal ol, .minimal table, .minimal pre, .minimal dl {
