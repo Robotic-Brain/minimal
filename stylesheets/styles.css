@@ -109,86 +109,9 @@ body.minimal {
   position:fixed;
 }
 
-.minimal header ul {
-  list-style:none;
-  height:40px;
-  
-  padding:0;
-  
-  background: #eee;
-  background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  
-  border-radius:5px;
-  border:1px solid #d2d2d2;
-  box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
-  width:270px;
-}
-
-.minimal header li {
-  width:89px;
-  float:left;
-  border-right:1px solid #d2d2d2;
-  height:40px;
-}
-
-.minimal header li:first-child a {
-  border-radius:5px 0 0 5px;
-}
-
-.minimal header li:last-child a {
-  border-radius:0 5px 5px 0;
-}
-
-.minimal header ul a {
-  line-height:1;
-  font-size:11px;
-  color:#999;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:34px;
-}
-
-.minimal header ul a:hover {
-  color:#999;
-  background: -moz-linear-gradient(top, #fff 0%, #ddd 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#ddd));
-  background: -webkit-linear-gradient(top, #fff 0%,#ddd 100%);
-  background: -o-linear-gradient(top, #fff 0%,#ddd 100%);
-  background: -ms-linear-gradient(top, #fff 0%,#ddd 100%);
-  background: linear-gradient(top, #fff 0%,#ddd 100%);
-}
-
-.minimal header ul a:active {
-  -webkit-box-shadow: inset 0px 2px 2px 0px #ddd;
-  -moz-box-shadow: inset 0px 2px 2px 0px #ddd;
-  box-shadow: inset 0px 2px 2px 0px #ddd;
-}
-
 .minimal strong {
   color:#222;
   font-weight:700;
-}
-
-.minimal header ul li + li {
-  width:88px;
-  border-left:1px solid #fff;
-}
-
-.minimal header ul li + li + li {
-  border-right:none;
-  width:89px;
-}
-
-.minimal header ul a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
 }
 
 .minimal section {
@@ -239,15 +162,6 @@ body.minimal {
     margin:0 0 20px;
   }
   
-  .minimal header a small {
-    display:inline;
-  }
-  
-  .minimal header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
 }
 
 @media print, screen and (max-width: 720px) {
@@ -259,7 +173,7 @@ body.minimal {
     padding:0;
   }
   
-  .minimal header ul, .minimal header p.view {
+  .minimal header p.view {
     position:static;
   }
   
@@ -271,10 +185,6 @@ body.minimal {
 @media print, screen and (max-width: 480px) {
   body.minimal {
     padding:15px;
-  }
-  
-  .minimal header ul {
-    display:none;
   }
 }
 
