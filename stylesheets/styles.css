@@ -3,21 +3,18 @@
 body.minimal-dark {
   padding:50px;
   font:15px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  background:#1b1b1b;
+  color:#adadad;
   font-weight:300;
 }
 
 .minimal-dark h1, .minimal-dark h2, .minimal-dark h3, .minimal-dark h4, .minimal-dark h5, .minimal-dark h6 {
-  color:#222;
+  color:#bbbbbb;
   margin:0 0 20px;
 }
 
 .minimal-dark h4, .minimal-dark h5, .minimal-dark h6 {
     margin-bottom:5px;
-}
-
-.minimal-dark p, .minimal-dark ul, .minimal-dark ol, .minimal-dark table, .minimal-dark pre, .minimal-dark dl {
-  margin:0 0 20px;
 }
 
 .minimal-dark h1, .minimal-dark h2, .minimal-dark h3 {
@@ -29,32 +26,31 @@ body.minimal-dark {
 }
 
 .minimal-dark h2 {
-  color:#393939;
+  color:#aaaaaa;
 }
 
 .minimal-dark h3, .minimal-dark h4, .minimal-dark h5, .minimal-dark h6 {
-  color:#494949;
+  color:#999999;
+}
+
+.minimal-dark p, .minimal-dark ul, .minimal-dark ol, .minimal-dark table, .minimal-dark pre, .minimal-dark dl {
+  margin:0 0 20px;
 }
 
 .minimal-dark a {
-  color:#39c;
+  color:#3c5;
   font-weight:400;
   text-decoration:none;
 }
 
 .minimal-dark a:hover {
-  color:#069;
+  text-decoration:underline;
 }
 
 .minimal-dark a small {
   font-size:11px;
-  color:#777;
   margin-top:-0.6em;
   display:block;
-}
-
-.minimal-dark a:hover small {
-  color:#777;
 }
 
 .minimal-dark .wrapper {
@@ -63,7 +59,7 @@ body.minimal-dark {
 }
 
 .minimal-dark blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid #cccccc;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -73,13 +69,14 @@ body.minimal-dark {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
   color:#333;
   font-size:12px;
+  background:#e0e0e0;
+  border-radius:5px;
+  padding:2px;
 }
 
 .minimal-dark pre {
   padding:8px 15px;
-  background: #f8f8f8;  
-  border-radius:5px;
-  border:1px solid #e5e5e5;
+  /*border: 2px solid #0e9c2f;*/
   overflow-x: auto;
 }
 
@@ -91,16 +88,16 @@ body.minimal-dark {
 .minimal-dark th, .minimal-dark td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid #cccccc;
 }
 
 .minimal-dark dt {
-  color:#444;
+  color:#aaaaaa;
   font-weight:700;
 }
 
 .minimal-dark th {
-  color:#444;
+  color:#aaaaaa;
 }
 
 .minimal-dark img {
@@ -114,7 +111,7 @@ body.minimal-dark {
 }
 
 .minimal-dark strong {
-  color:#222;
+  color:#aaaaaa;
   font-weight:700;
 }
 
@@ -130,7 +127,7 @@ body.minimal-dark {
 
 .minimal-dark hr {
   border:0;
-  background:#e5e5e5;
+  background:#cccccc;
   height:1px;
   margin:0 0 20px;
 }
@@ -166,7 +163,7 @@ body.minimal-dark {
   }
   
   .minimal-dark section {
-    border:1px solid #e5e5e5;
+    border:1px solid #cccccc;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -206,6 +203,10 @@ body.minimal-dark {
   body.minimal-dark {
     padding:0.4in;
     font-size:12pt;
-    color:#444;
+  }
+
+  .minimal-dark *, body.minimal-dark {
+    color:#000;
+    background-color:#FFF;
   }
 }
