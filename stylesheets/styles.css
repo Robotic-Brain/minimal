@@ -138,6 +138,12 @@ body.minimal {
   bottom:50px;
 }
 
+.minimal header ul {
+    list-style:none;
+    padding-left:30px;
+    width:270px;
+}
+
 @media print, screen and (max-width: 960px) {
   
   .minimal div.wrapper {
@@ -162,6 +168,10 @@ body.minimal {
     margin:0 0 20px;
   }
   
+  .minimal header ul li {
+    display:inline;
+    margin-right:10px;
+  }
 }
 
 @media print, screen and (max-width: 720px) {
