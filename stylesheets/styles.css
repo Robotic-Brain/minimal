@@ -1,81 +1,81 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
-body.minimal {
+body.minimal-dark {
   padding:50px;
   font:15px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
 
-.minimal h1, .minimal h2, .minimal h3, .minimal h4, .minimal h5, .minimal h6 {
+.minimal-dark h1, .minimal-dark h2, .minimal-dark h3, .minimal-dark h4, .minimal-dark h5, .minimal-dark h6 {
   color:#222;
   margin:0 0 20px;
 }
 
-.minimal h4, .minimal h5, .minimal h6 {
+.minimal-dark h4, .minimal-dark h5, .minimal-dark h6 {
     margin-bottom:5px;
 }
 
-.minimal p, .minimal ul, .minimal ol, .minimal table, .minimal pre, .minimal dl {
+.minimal-dark p, .minimal-dark ul, .minimal-dark ol, .minimal-dark table, .minimal-dark pre, .minimal-dark dl {
   margin:0 0 20px;
 }
 
-.minimal h1, .minimal h2, .minimal h3 {
+.minimal-dark h1, .minimal-dark h2, .minimal-dark h3 {
   line-height:1.1;
 }
 
-.minimal h1 {
+.minimal-dark h1 {
   font-size:28px;
 }
 
-.minimal h2 {
+.minimal-dark h2 {
   color:#393939;
 }
 
-.minimal h3, .minimal h4, .minimal h5, .minimal h6 {
+.minimal-dark h3, .minimal-dark h4, .minimal-dark h5, .minimal-dark h6 {
   color:#494949;
 }
 
-.minimal a {
+.minimal-dark a {
   color:#39c;
   font-weight:400;
   text-decoration:none;
 }
 
-.minimal a:hover {
+.minimal-dark a:hover {
   color:#069;
 }
 
-.minimal a small {
+.minimal-dark a small {
   font-size:11px;
   color:#777;
   margin-top:-0.6em;
   display:block;
 }
 
-.minimal a:hover small {
+.minimal-dark a:hover small {
   color:#777;
 }
 
-.minimal .wrapper {
+.minimal-dark .wrapper {
   width:860px;
   margin:0 auto;
 }
 
-.minimal blockquote {
+.minimal-dark blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
 }
 
-.minimal code, .minimal pre {
+.minimal-dark code, .minimal-dark pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
   color:#333;
   font-size:12px;
 }
 
-.minimal pre {
+.minimal-dark pre {
   padding:8px 15px;
   background: #f8f8f8;  
   border-radius:5px;
@@ -83,66 +83,66 @@ body.minimal {
   overflow-x: auto;
 }
 
-.minimal table {
+.minimal-dark table {
   width:100%;
   border-collapse:collapse;
 }
 
-.minimal th, .minimal td {
+.minimal-dark th, .minimal-dark td {
   text-align:left;
   padding:5px 10px;
   border-bottom:1px solid #e5e5e5;
 }
 
-.minimal dt {
+.minimal-dark dt {
   color:#444;
   font-weight:700;
 }
 
-.minimal th {
+.minimal-dark th {
   color:#444;
 }
 
-.minimal img {
+.minimal-dark img {
   max-width:100%;
 }
 
-.minimal header {
+.minimal-dark header {
   width:270px;
   float:left;
   position:fixed;
 }
 
-.minimal strong {
+.minimal-dark strong {
   color:#222;
   font-weight:700;
 }
 
-.minimal section {
+.minimal-dark section {
   width:500px;
   float:right;
   padding-bottom:50px;
 }
 
-.minimal small {
+.minimal-dark small {
   font-size:11px;
 }
 
-.minimal hr {
+.minimal-dark hr {
   border:0;
   background:#e5e5e5;
   height:1px;
   margin:0 0 20px;
 }
 
-.minimal footer {
+.minimal-dark footer {
   width:270px;
   float:left;
   position:fixed;
   bottom:50px;
 }
 
-.minimal header ul {
+.minimal-dark header ul {
     list-style:none;
     padding-left:30px;
     width:270px;
@@ -150,60 +150,60 @@ body.minimal {
 
 @media print, screen and (max-width: 960px) {
   
-  .minimal div.wrapper {
+  .minimal-dark div.wrapper {
     width:auto;
     margin:0;
   }
   
-  .minimal header, .minimal section, .minimal footer {
+  .minimal-dark header, .minimal-dark section, .minimal-dark footer {
     float:none;
     position:static;
     width:auto;
   }
   
-  .minimal header {
+  .minimal-dark header {
     padding-right:320px;
   }
   
-  .minimal section {
+  .minimal-dark section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
   
-  .minimal header ul li {
+  .minimal-dark header ul li {
     display:inline;
     margin-right:10px;
   }
 }
 
 @media print, screen and (max-width: 720px) {
-  body.minimal {
+  body.minimal-dark {
     word-wrap:break-word;
   }
   
-  .minimal header {
+  .minimal-dark header {
     padding:0;
   }
   
-  .minimal header p.view {
+  .minimal-dark header p.view {
     position:static;
   }
   
-  .minimal pre, .minimal code {
+  .minimal-dark pre, .minimal-dark code {
     word-wrap:normal;
   }
 }
 
 @media print, screen and (max-width: 480px) {
-  body.minimal {
+  body.minimal-dark {
     padding:15px;
   }
 }
 
 @media print {
-  body.minimal {
+  body.minimal-dark {
     padding:0.4in;
     font-size:12pt;
     color:#444;
