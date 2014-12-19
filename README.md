@@ -1,7 +1,6 @@
-# Modified version of Minimal Theme
+# Dark version of Minimal Theme
 
-This is the raw HTML and styles that are used on my personal Blog.  
-I'm only posting this here to comply with the CC-BY-SA License and make clear what exactly was changed by me.
+This is the raw HTML and styles that are used by a darker version of the *minimal* theme on my personal Blog.  
 
 # License
 
